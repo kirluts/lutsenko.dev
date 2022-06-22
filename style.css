@@ -1,0 +1,109 @@
+@font-face {
+  font-family: Wotfard-bold;
+  src: url(fonts/Wotfard/Wotfard-Bold.otf);
+}
+
+body {
+  margin: 0;
+  background-color: #182025;
+  font-family: "Wotfard-bold";
+}
+
+li {
+  list-style-type: none;
+}
+
+.center {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.hand {
+  font-size: 65px;
+  margin-right: 30px;
+}
+
+.hey {
+  font-size: 18px;
+  color: #f8bc45;
+  margin-top: 20px;
+}
+
+.name {
+  color: #f8bc45;
+}
+
+.bio {
+  /* color: #5ab3b3; */
+  font-size: 18px;
+  background-image: linear-gradient(
+    200deg,
+    #f8bc45 0%,
+    #f2b55f 16%,
+    #ecaf76 33%,
+    #e4a88b 50%,
+    #dba2a0 66%,
+    #d19cb3 83%,
+    #c596c7 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.stack {
+  background-image: linear-gradient(
+    200deg,
+    #f8bc45 0%,
+    #f2b55f 16%,
+    #ecaf76 33%,
+    #e4a88b 50%,
+    #dba2a0 66%,
+    #d19cb3 83%,
+    #c596c7 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.conteiner {
+  display: flex;
+  justify-content: center;
+  color: #c596c7;
+}
+
+.social a {
+  text-decoration: none;
+  color: #d19cb3;
+}
+
+.social {
+  font-size: smaller;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.social img {
+  width: 30px;
+  height: 30px;
+}
+
+.git {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.twit {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
