@@ -1,4 +1,4 @@
-MY FIRST SITE
+MY SITE
 
 > [lutsenko.dev](https://lutsenko.dev)
 
