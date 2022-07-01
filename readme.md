@@ -1,4 +1,4 @@
-my site
+my portfolio
 
 > [lutsenko.dev](https://lutsenko.dev)
 
